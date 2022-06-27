@@ -306,8 +306,8 @@ def run():
 
                 # if the user presses the b key (bubble sort),
                 # AND, the sorting variable is false (algorithim is not already running)
-                if event.key == pygame.K_d and not sorting:
+                if event.key == pygame.K_b and not sorting:
                     # change the current sorting algorithim
-                    curr_algo = insertion_sort
+                    curr_algo = bubble_sort
                     # change the name of the current sorting algorithim
-                    curr_algo_name = "Insertion Sort"
+                    curr_algo_name = "Bubble Sort"
